@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="template">
+<name>Custom Joomla Template</name>
+<creationDate>2020-10-28</creationDate>
+<author>TemplateToaster</author>
+<authorEmail>example@templatetoaster.com</authorEmail>
+<authorUrl>https://internetdienstennederland.nl</authorUrl>
+<copyright>Copyright© 2009-2018</copyright>
+<license>GNU/GPL</license>
+<version>1.0.2</version>
+<description>First Custom Template</description>
+<files>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <folder>images</folder>
+    <folder>css</folder>
+</files>
+<positions>
+    <position>breadcrumb</position>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>footer</position>
+</positions>
+</extension>
