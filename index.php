@@ -9,13 +9,37 @@
 </head>
 
 <body>
-    <jdoc:include type="modules" name="top" />
-    <jdoc:include type="component" />
-    <jdoc:include type="modules" name="footer" />
+
+<header>
+    <nav>
+        <h1>Titel</h1>
+        <jdoc:include type="modules" name="top" />
+    </nav>    
+</header>
+
+<div class="container">
+
+
+    <main>
+
+        <jdoc:include type="component" />
+
+        <jdoc:include type="modules" name="breadcrumb" />
+        <sidebar>
+            <jdoc:include type="modules" name="right" />
+        </sidebar>
+
+    </main>
+
+    
+</div>
+<!-- container -->
+
+<footer>
+        <jdoc:include type="modules" name="footer" />
+</footer>
+
+
 </body>
-
-
-
-
 
 </html>

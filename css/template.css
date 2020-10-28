@@ -1,0 +1,33 @@
+body {
+  background: whitesmoke;
+}
+body header {
+  background: black;
+  color: white;
+  padding: 5px 8px;
+  margin-top: 4px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+body header nav {
+  width: 95%;
+  margin: 0 auto;
+}
+body .container {
+  width: 70%;
+  margin: 0 auto;
+}
+body .container main {
+  padding: 5px;
+  height: 5000px;
+}
+body .container main sidebar {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/*# sourceMappingURL=template.css.map */
