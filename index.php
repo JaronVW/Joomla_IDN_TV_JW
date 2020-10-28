@@ -14,5 +14,4 @@
     <jdoc:include type="modules" name="footer" />
 </body>
 
-
 </html>
