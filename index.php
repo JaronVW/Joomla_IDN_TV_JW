@@ -8,10 +8,9 @@
         type="text/css" />
 </head>
 
-<body>
-    <jdoc:include type="modules" name="top" />
-    <jdoc:include type="component" />
-    <jdoc:include type="modules" name="footer" />
-</body>
-
+    <body>
+        <jdoc:include type="modules" name="top" />
+        <jdoc:include type="component" />
+        <jdoc:include type="modules" name="footer" />
+    </body>
 </html>
